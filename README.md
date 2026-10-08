@@ -1,0 +1,2 @@
+Dòng waitingQueue.pop() sai vì pop lấy phần tử cuối mảng, làm xe đến sau cùng được sạc trước, trái quy tắc => đổi thành shift() để lấy xe ở index 0. Dòng for sai vì mảng có 4 phần tử thì index chỉ từ 0 đến 3
+sửa điều kiện thành i < completedSessionsKwh.length.
